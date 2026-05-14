@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!-- SEO -->
+<title>Log In or Sign Up Free — AI Agents</title>
+<meta name="description" content="Log in to your AI Agents account or create a free account. No credit card required. Build your first AI agent in under 10 minutes.">
+<meta name="keywords" content="AI agents login, create AI agent account, free AI agent signup, AI agent builder sign up">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://www.aiagents.com/login.html">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.aiagents.com/login.html">
+<meta property="og:title" content="Log In or Sign Up Free — AI Agents">
+<meta property="og:description" content="Log in to your AI Agents account or create a free account. No credit card required. Build your first AI agent in under 10 minutes.">
+<meta property="og:image" content="https://www.aiagents.com/og-image.png">
+<meta property="og:site_name" content="AI Agents">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Log In or Sign Up Free — AI Agents">
+<meta name="twitter:description" content="Log in to your AI Agents account or create a free account. No credit card required. Build your first AI agent in under 10 minutes.">
+<meta name="twitter:image" content="https://www.aiagents.com/og-image.png">
+<meta name="theme-color" content="#2563EB">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"AI Agents — Login & Sign Up","description":"Log in or create a free AI Agents account. No credit card required. Deploy your first AI agent in under 10 minutes.","url":"https://www.aiagents.com/login.html"}</script><meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="shared.css">
+<style>
+body{background:var(--bg-soft);}
+.auth-page{min-height:100vh;display:grid;grid-template-columns:1fr 1fr;}
+.auth-left{background:var(--dark);padding:60px;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden;}
+.auth-left::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 30% 20%, rgba(37,99,235,0.25) 0%, transparent 60%), radial-gradient(ellipse at 80% 80%, rgba(79,70,229,0.2) 0%, transparent 60%);}
+.auth-brand{position:relative;z-index:1;}
+.auth-brand .logo{color:white;margin-bottom:0;}
+.auth-brand .logo-icon{background:rgba(255,255,255,0.15);}
+.auth-headline{position:relative;z-index:1;}
+.auth-headline h2{font-family:'Instrument Serif',serif;font-size:36px;color:white;line-height:1.2;letter-spacing:-0.02em;margin-bottom:16px;}
+.auth-headline h2 em{font-style:italic;color:#93C5FD;}
+.auth-headline p{font-size:15px;color:#94A3B8;line-height:1.7;}
+.auth-testimonial{position:relative;z-index:1;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);border-radius:16px;padding:24px;}
+.auth-testimonial blockquote{font-size:15px;color:#CBD5E1;line-height:1.7;font-style:italic;margin-bottom:16px;}
+.auth-testimonial-author{display:flex;align-items:center;gap:12px;}
+.auth-avatar{width:38px;height:38px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;color:white;}
+.auth-author-name{font-size:13px;font-weight:600;color:white;}
+.auth-author-role{font-size:11px;color:#64748B;}
+
+.auth-right{display:flex;align-items:center;justify-content:center;padding:60px 40px;}
+.auth-box{width:100%;max-width:420px;}
+.auth-tabs{display:flex;background:var(--bg-subtle);border-radius:12px;padding:4px;margin-bottom:32px;}
+.auth-tab{flex:1;padding:9px;text-align:center;border-radius:9px;border:none;background:none;font-size:14px;font-weight:500;color:var(--slate);cursor:pointer;transition:all 0.15s;font-family:inherit;}
+.auth-tab.active{background:white;color:var(--dark);box-shadow:var(--shadow-sm);}
+.auth-box h3{font-family:'Instrument Serif',serif;font-size:28px;color:var(--dark);letter-spacing:-0.02em;margin-bottom:6px;}
+.auth-box .sub{font-size:14px;color:var(--slate);margin-bottom:28px;}
+.auth-box .sub a{color:var(--blue);font-weight:500;text-decoration:none;}
+
+.social-btn{width:100%;padding:11px;border-radius:10px;border:1.5px solid var(--border);background:white;font-size:14px;font-weight:500;cursor:pointer;font-family:inherit;color:var(--dark);display:flex;align-items:center;justify-content:center;gap:10px;transition:all 0.15s;margin-bottom:10px;}
+.social-btn:hover{border-color:#94A3B8;background:var(--bg-soft);}
+.social-icon{width:20px;height:20px;display:flex;align-items:center;justify-content:center;font-size:16px;}
+
+.divider{display:flex;align-items:center;gap:14px;margin:20px 0;}
+.divider-line{flex:1;height:1px;background:var(--border);}
+.divider-text{font-size:12px;color:var(--light-slate);font-weight:500;}
+
+.form-panel{display:none;}
+.form-panel.active{display:block;}
+
+.password-wrap{position:relative;}
+.password-wrap input{padding-right:44px;}
+.pw-toggle{position:absolute;right:14px;top:50%;transform:translateY(-50%);background:none;border:none;cursor:pointer;color:var(--light-slate);font-size:14px;padding:0;}
+
+.terms{font-size:12px;color:var(--light-slate);text-align:center;margin-top:16px;line-height:1.6;}
+.terms a{color:var(--blue);text-decoration:none;}
+
+.forgot{font-size:13px;color:var(--blue);text-decoration:none;font-weight:500;}
+.forgot:hover{text-decoration:underline;}
+
+.benefits{list-style:none;margin-bottom:28px;}
+.benefits li{display:flex;align-items:center;gap:10px;font-size:13px;color:var(--slate);padding:4px 0;}
+.benefits li::before{content:'✓';color:var(--blue);font-weight:700;}
+
+@media(max-width:900px){.auth-page{grid-template-columns:1fr;}.auth-left{display:none;}.auth-right{padding:40px 20px;min-height:100vh;}}
+</style>
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body>
+<a href="#main" style="position:absolute;left:-9999px;top:0;background:#2563EB;color:white;padding:8px 16px;border-radius:0 0 8px 8px;font-size:14px;font-weight:600;z-index:9999;" onfocus="this.style.left='0'">Skip to main content</a>
+
+<div id="nav-placeholder"></div>
+
+<main id="main">
+<h1 style="position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;">AI Agents — Log In or Create a Free Account</h1>
+<div class="auth-page" role="main" aria-label="Authentication">
+  <!-- Left panel -->
+  <div class="auth-left">
+    <div class="auth-brand">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">
+          <svg viewBox="0 0 20 20" width="18" height="18" fill="none"><circle cx="10" cy="10" r="3" fill="white"/><path d="M10 2a1 1 0 011 1v2a1 1 0 01-2 0V3a1 1 0 011-1zm0 12a1 1 0 011 1v2a1 1 0 01-2 0v-2a1 1 0 011-1zM2 10a1 1 0 011-1h2a1 1 0 010 2H3a1 1 0 01-1-1zm12 0a1 1 0 011-1h2a1 1 0 010 2h-2a1 1 0 01-1-1z" fill="white" fill-rule="evenodd"/></svg>
+        </div>
+        AI Agents
+      </a>
+    </div>
+    <div class="auth-headline">
+      <h2>Build AI agents that <em>grow your business</em></h2>
+      <p>Join 2,400+ businesses using AI Agents to automate customer conversations, qualify leads, and book more appointments — 24 hours a day.</p>
+    </div>
+    <div class="auth-testimonial">
+      <blockquote>"We went from 0 to live agent in under 10 minutes. By the end of the week it had booked 14 property viewings we would have missed. Unbelievable ROI."</blockquote>
+      <div class="auth-testimonial-author">
+        <div class="auth-avatar" style="background:#2563EB;">MK</div>
+        <div><div class="auth-author-name">Michael Kamau</div><div class="auth-author-role">Principal, Clearview Realty</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Right panel -->
+  <div class="auth-right" aria-label="Login and signup forms">
+    <div class="auth-box">
+      <div class="auth-tabs">
+        <button class="auth-tab" id="login-tab" onclick="showTab('login')">Log in</button>
+        <button class="auth-tab active" id="signup-tab" onclick="showTab('signup')">Get Started Free</button>
+      </div>
+
+      <!-- SIGNUP -->
+      <div class="form-panel active" id="signup-panel">
+        <h3>Create your free account</h3>
+        <p class="sub">No credit card required. <a href="#">14-day free trial</a> on all paid plans.</p>
+
+        <ul class="benefits">
+          <li>1 AI Agent free forever</li>
+          <li>200 conversations per month included</li>
+          <li>Live on your website in under 10 minutes</li>
+          <li>No credit card required to start</li>
+        </ul>
+
+        <button class="social-btn"><span class="social-icon">🇬</span> Continue with Google</button>
+        <button class="social-btn"><span class="social-icon">🍎</span> Continue with Apple</button>
+
+        <div class="divider"><div class="divider-line"></div><span class="divider-text">OR</span><div class="divider-line"></div></div>
+
+        <div class="form-group">
+          <label>Full name</label>
+          <input type="text" placeholder="Jane Wanjiku">
+        </div>
+        <div class="form-group">
+          <label>Work email</label>
+          <input type="email" placeholder="jane@yourbusiness.com">
+        </div>
+        <div class="form-group">
+          <label>Business name</label>
+          <input type="text" placeholder="Clearview Realty">
+        </div>
+        <div class="form-group">
+          <label>Industry</label>
+          <select>
+            <option value="">Select your industry...</option>
+            <option>Real Estate</option>
+            <option>E-commerce</option>
+            <option>Salon / Beauty</option>
+            <option>Clinic / Healthcare</option>
+            <option>Legal / Professional Services</option>
+            <option>Restaurant / Hospitality</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Password</label>
+          <div class="password-wrap">
+            <input type="password" id="signup-pw" placeholder="Min. 8 characters">
+            <button class="pw-toggle" onclick="togglePw('signup-pw')">👁</button>
+          </div>
+        </div>
+        <button class="form-submit">Create free account →</button>
+        <p class="terms">By creating an account you agree to our <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>. We'll never spam you.</p>
+      </div>
+
+      <!-- LOGIN -->
+      <div class="form-panel" id="login-panel">
+        <h3>Welcome back</h3>
+        <p class="sub">New here? <a href="#" onclick="showTab('signup')">Create a free account</a></p>
+
+        <button class="social-btn"><span class="social-icon">🇬</span> Continue with Google</button>
+        <button class="social-btn"><span class="social-icon">🍎</span> Continue with Apple</button>
+
+        <div class="divider"><div class="divider-line"></div><span class="divider-text">OR</span><div class="divider-line"></div></div>
+
+        <div class="form-group">
+          <label>Email address</label>
+          <input type="email" placeholder="jane@yourbusiness.com">
+        </div>
+        <div class="form-group">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+            <label style="margin:0;">Password</label>
+            <a href="#" class="forgot">Forgot password?</a>
+          </div>
+          <div class="password-wrap">
+            <input type="password" id="login-pw" placeholder="Your password">
+            <button class="pw-toggle" onclick="togglePw('login-pw')">👁</button>
+          </div>
+        </div>
+        <button class="form-submit">Log in to my account →</button>
+        <p class="terms" style="margin-top:20px;">Having trouble? <a href="#">Contact support</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</main>
+<div id="footer-placeholder"></div>
+<script src="nav.js"></script>
+<script>
+initPage('');
+function showTab(tab) {
+  document.getElementById('login-tab').classList.toggle('active', tab === 'login');
+  document.getElementById('signup-tab').classList.toggle('active', tab === 'signup');
+  document.getElementById('login-panel').classList.toggle('active', tab === 'login');
+  document.getElementById('signup-panel').classList.toggle('active', tab === 'signup');
+}
+function togglePw(id) {
+  const inp = document.getElementById(id);
+  inp.type = inp.type === 'password' ? 'text' : 'password';
+}
+// Check for #signup hash
+if(window.location.hash === '#signup') showTab('signup');
+</script>
+</body>
+</html>

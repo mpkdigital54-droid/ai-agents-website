@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!-- SEO -->
+<title>AI Agent Resources — Guides, Templates & Webinars | AI Agents</title>
+<meta name="description" content="Free guides, no-code templates, video tutorials, and live webinars to help you build and deploy AI agents for your business. Documentation, API reference, and more.">
+<meta name="keywords" content="AI agent guide, no-code AI tutorial, AI agent templates, AI automation webinar, AI agent documentation, build AI agent guide">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<link rel="canonical" href="https://www.aiagents.com/resources.html">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.aiagents.com/resources.html">
+<meta property="og:title" content="AI Agent Resources — Guides, Templates & Webinars | AI Agents">
+<meta property="og:description" content="Free guides, no-code templates, video tutorials, and live webinars to help you build and deploy AI agents for your business. Documentation, API reference, and more.">
+<meta property="og:image" content="https://www.aiagents.com/og-image.png">
+<meta property="og:site_name" content="AI Agents">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AI Agent Resources — Guides, Templates & Webinars | AI Agents">
+<meta name="twitter:description" content="Free guides, no-code templates, video tutorials, and live webinars to help you build and deploy AI agents for your business. Documentation, API reference, and more.">
+<meta name="twitter:image" content="https://www.aiagents.com/og-image.png">
+<meta name="theme-color" content="#2563EB">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"AI Agent Resources","description":"Free guides, templates, webinars, and documentation for building AI agents. Learn how to automate your business with AI Agents.","url":"https://www.aiagents.com/resources.html","breadcrumb":{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.aiagents.com/"},{"@type":"ListItem","position":2,"name":"Resources","item":"https://www.aiagents.com/resources.html"}]}}</script><meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="shared.css">
+<style>
+.resource-hub{display:grid;grid-template-columns:2fr 1fr;gap:32px;align-items:start;}
+.resource-card{background:white;border-radius:20px;border:1px solid var(--border);overflow:hidden;box-shadow:var(--shadow-sm);transition:all 0.2s;cursor:pointer;margin-bottom:20px;}
+.resource-card:hover{transform:translateY(-2px);box-shadow:var(--shadow-lg);}
+.resource-card-img{height:220px;overflow:hidden;}
+.resource-card-img img{width:100%;height:100%;object-fit:cover;transition:transform 0.3s;}
+.resource-card:hover .resource-card-img img{transform:scale(1.03);}
+.resource-card-body{padding:28px;}
+.rc-type{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;padding:3px 10px;border-radius:100px;display:inline-block;margin-bottom:10px;}
+.rc-type.guide{background:#EFF6FF;color:var(--blue);}
+.rc-type.webinar{background:#F5F3FF;color:var(--indigo);}
+.rc-type.template{background:#F0FDF4;color:#16A34A;}
+.rc-type.video{background:#FEF3C7;color:#D97706);}
+.resource-card h3{font-family:'Instrument Serif',serif;font-size:22px;line-height:1.3;color:var(--dark);margin-bottom:10px;}
+.resource-card p{font-size:14px;color:var(--slate);line-height:1.7;margin-bottom:18px;}
+.rc-meta{font-size:12px;color:var(--light-slate);display:flex;align-items:center;gap:14px;}
+
+.sidebar-card{background:white;border-radius:16px;border:1px solid var(--border);padding:24px;box-shadow:var(--shadow-sm);margin-bottom:20px;}
+.sidebar-card h4{font-size:15px;font-weight:600;color:var(--dark);margin-bottom:16px;}
+.sidebar-link{display:flex;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid var(--border);text-decoration:none;color:var(--slate);font-size:14px;transition:color 0.15s;}
+.sidebar-link:last-child{border-bottom:none;}
+.sidebar-link:hover{color:var(--blue);}
+.sidebar-link-icon{font-size:18px;width:28px;text-align:center;}
+
+.doc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+.doc-card{background:white;border-radius:16px;border:1px solid var(--border);padding:24px;box-shadow:var(--shadow-sm);transition:all 0.2s;text-decoration:none;display:block;}
+.doc-card:hover{transform:translateY(-2px);box-shadow:var(--shadow-md);border-color:#CBD5E1;}
+.doc-icon{font-size:28px;margin-bottom:14px;}
+.doc-card h4{font-size:15px;font-weight:600;color:var(--dark);margin-bottom:6px;}
+.doc-card p{font-size:13px;color:var(--slate);line-height:1.6;}
+.doc-arrow{font-size:13px;color:var(--blue);font-weight:600;margin-top:12px;display:block;}
+
+.webinar-card{display:grid;grid-template-columns:120px 1fr;gap:20px;align-items:center;padding:20px;background:white;border-radius:14px;border:1px solid var(--border);margin-bottom:14px;box-shadow:var(--shadow-sm);transition:all 0.15s;}
+.webinar-card:hover{box-shadow:var(--shadow-md);}
+.webinar-date{background:var(--blue);color:white;border-radius:12px;padding:14px;text-align:center;}
+.webinar-month{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;opacity:0.8;}
+.webinar-day{font-size:32px;font-weight:700;line-height:1;font-family:'Instrument Serif',serif;}
+.webinar-title{font-size:15px;font-weight:600;color:var(--dark);margin-bottom:4px;}
+.webinar-desc{font-size:13px;color:var(--slate);}
+.webinar-badge{font-size:11px;font-weight:600;padding:3px 10px;border-radius:100px;background:#EFF6FF;color:var(--blue);display:inline-block;margin-top:8px;}
+
+@media(max-width:900px){.resource-hub{grid-template-columns:1fr;}.doc-grid{grid-template-columns:1fr;}}
+</style>
+<meta name="ai-agents:topic" content="AI agent tutorials, no-code AI guides, business automation templates, AI webinars">
+</head>
+<body>
+<a href="#main" style="position:absolute;left:-9999px;top:0;background:#2563EB;color:white;padding:8px 16px;border-radius:0 0 8px 8px;font-size:14px;font-weight:600;z-index:9999;" onfocus="this.style.left='0'">Skip to main content</a>
+
+<div id="nav-placeholder"></div>
+
+<main id="main">
+<section aria-labelledby="page-h1" class="page-hero">
+  <span class="eyebrow">Resources</span>
+  <h1>Learn, grow, and <em>master AI automation</em></h1>
+  <p>Guides, templates, webinars, and documentation to help you get the most out of AI Agents — whether you're just starting or scaling to thousands of conversations.</p>
+  <div class="hero-ctas">
+    <a href="#guides" class="btn-hero">Browse guides →</a>
+    <a href="#docs" class="btn-outline">View documentation</a>
+  </div>
+</div>
+
+<!-- Main Resources Hub -->
+<section class="section" id="guides">
+  <div class="container">
+    <div class="resource-hub">
+      <div>
+        <div class="section-header fade-up" style="text-align:left;margin-bottom:28px;max-width:100%;">
+          <span class="section-eyebrow">Featured Guides</span>
+          <h2 class="section-title">Start here</h2>
+        </div>
+
+        <div class="resource-card fade-up">
+          <div class="resource-card-img"><img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80" alt="Getting Started Guide"></div>
+          <div class="resource-card-body">
+            <span class="rc-type guide">Guide</span>
+            <h3>The Complete No-Code AI Agent Guide for Business Owners</h3>
+            <p>Everything you need to know about building, customizing, and deploying an AI agent for your business — from choosing the right agent type to measuring results. Includes real examples from real estate, e-commerce, and service businesses.</p>
+            <div class="rc-meta"><span>⏱️ 18 min read</span><span>📅 Updated June 2025</span><span>🔥 Most popular</span></div>
+          </div>
+        </div>
+
+        <div class="resource-card fade-up">
+          <div class="resource-card-img"><img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800&q=80" alt="Lead Qualification Guide"></div>
+          <div class="resource-card-body">
+            <span class="rc-type guide">Guide</span>
+            <h3>How to Build a Lead Qualification Agent That Books 3× More Viewings</h3>
+            <p>A step-by-step walkthrough for real estate agents and property managers. Learn how to write the perfect qualifying questions, configure your booking flow, and integrate with your CRM to never miss a hot lead again.</p>
+            <div class="rc-meta"><span>⏱️ 12 min read</span><span>📅 May 2025</span><span>🏠 Real Estate</span></div>
+          </div>
+        </div>
+
+        <div class="resource-card fade-up">
+          <div class="resource-card-img"><img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80" alt="E-commerce Support Guide"></div>
+          <div class="resource-card-body">
+            <span class="rc-type template">Template Pack</span>
+            <h3>10 Ready-to-Use AI Agent Templates for E-commerce Stores</h3>
+            <p>Download and deploy these proven agent configurations in minutes. Includes templates for support, order tracking, cart recovery, product recommendations, and returns — all battle-tested by ShopNova and FreshCart.</p>
+            <div class="rc-meta"><span>⏱️ 5 min setup</span><span>📅 April 2025</span><span>🛍️ E-commerce</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sidebar -->
+      <div>
+        <div class="sidebar-card fade-up">
+          <h4>Quick Links</h4>
+          <a href="#" class="sidebar-link"><span class="sidebar-link-icon">📖</span>Getting Started Guide</a>
+          <a href="#docs" class="sidebar-link"><span class="sidebar-link-icon">📚</span>Full Documentation</a>
+          <a href="#webinars" class="sidebar-link"><span class="sidebar-link-icon">🎥</span>Upcoming Webinars</a>
+          <a href="#" class="sidebar-link"><span class="sidebar-link-icon">💬</span>Community Forum</a>
+          <a href="#" class="sidebar-link"><span class="sidebar-link-icon">🎓</span>AI Agents Academy</a>
+          <a href="#" class="sidebar-link"><span class="sidebar-link-icon">🆘</span>Help & Support</a>
+        </div>
+
+        <div class="sidebar-card fade-up">
+          <h4>Popular Templates</h4>
+          <a href="#" class="sidebar-link"><span class="sidebar-link-icon">🏠</span>Real Estate Lead Qualifier</a>
+          <a href="#" class="sidebar-link"><span class="sidebar-link-icon">📅</span>Appointment Booker</a>
+          <a href="#" class="sidebar-link"><span class="sidebar-link-icon">🛒</span>E-commerce Support Bot</a>
+          <a href="#" class="sidebar-link"><span class="sidebar-link-icon">🔔</span>Cart Recovery Agent</a>
+          <a href="#" class="sidebar-link"><span class="sidebar-link-icon">⭐</span>Review Collector</a>
+        </div>
+
+        <div class="sidebar-card fade-up" style="background:var(--dark);">
+          <h4 style="color:white;">🎓 AI Agents Academy</h4>
+          <p style="font-size:13px;color:#94A3B8;line-height:1.65;margin:12px 0 18px;">Free video course: Build your first AI agent from scratch in under an hour. Loved by 1,200+ business owners.</p>
+          <button class="btn-cta" style="width:100%;" onclick="location.href='login.html#signup'">Enroll free →</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Documentation -->
+<section class="section section-soft" id="docs">
+  <div class="container">
+    <div class="section-header fade-up">
+      <span class="section-eyebrow">Documentation</span>
+      <h2 class="section-title">Everything you need to build</h2>
+      <p class="section-subtitle">Comprehensive guides, API references, and tutorials for builders of all skill levels.</p>
+    </div>
+    <div class="doc-grid fade-up">
+      <a href="#" class="doc-card"><div class="doc-icon">🚀</div><h4>Quick Start</h4><p>Get your first agent live in under 10 minutes. No experience needed.</p><span class="doc-arrow">Read guide →</span></a>
+      <a href="#" class="doc-card"><div class="doc-icon">🤖</div><h4>Agent Configuration</h4><p>Deep dive into personality, tone, response rules, and escalation logic.</p><span class="doc-arrow">Read guide →</span></a>
+      <a href="#" class="doc-card"><div class="doc-icon">🔗</div><h4>Integrations</h4><p>Connect to HubSpot, Salesforce, Shopify, Google Calendar, and 100+ tools.</p><span class="doc-arrow">Read guide →</span></a>
+      <a href="#" class="doc-card"><div class="doc-icon">📱</div><h4>Channel Setup</h4><p>Deploy your agent on WhatsApp, SMS, Facebook, Instagram, and your website.</p><span class="doc-arrow">Read guide →</span></a>
+      <a href="#" class="doc-card"><div class="doc-icon">⚙️</div><h4>REST API Reference</h4><p>Full API docs for developers building custom integrations and workflows.</p><span class="doc-arrow">Read guide →</span></a>
+      <a href="#" class="doc-card"><div class="doc-icon">📊</div><h4>Analytics & Reporting</h4><p>Understand your agent's performance and optimise for better results.</p><span class="doc-arrow">Read guide →</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- Webinars -->
+<section class="section" id="webinars">
+  <div class="container">
+    <div class="section-header fade-up">
+      <span class="section-eyebrow">Webinars</span>
+      <h2 class="section-title">Learn live with our experts</h2>
+      <p class="section-subtitle">Free webinars every week covering setup, best practices, and industry-specific strategies.</p>
+    </div>
+    <div style="max-width:700px;margin:0 auto;" class="fade-up">
+      <div class="webinar-card">
+        <div class="webinar-date"><div class="webinar-month">JUL</div><div class="webinar-day">15</div></div>
+        <div>
+          <div class="webinar-title">Getting Started: Build Your First AI Agent in 30 Minutes</div>
+          <div class="webinar-desc">A live walkthrough of the platform from setup to deployment. Perfect for new users.</div>
+          <span class="webinar-badge">Live · Free · 11:00 AM EAT</span>
+        </div>
+      </div>
+      <div class="webinar-card">
+        <div class="webinar-date"><div class="webinar-month">JUL</div><div class="webinar-day">22</div></div>
+        <div>
+          <div class="webinar-title">Real Estate Masterclass: 3× Your Lead Qualification Rate</div>
+          <div class="webinar-desc">Advanced strategies for real estate agencies — live demos with real data from top performers.</div>
+          <span class="webinar-badge">Live · Free · 2:00 PM EAT</span>
+        </div>
+      </div>
+      <div class="webinar-card">
+        <div class="webinar-date"><div class="webinar-month">JUL</div><div class="webinar-day">29</div></div>
+        <div>
+          <div class="webinar-title">E-commerce Automation: From Cart Abandonment to Loyal Customer</div>
+          <div class="webinar-desc">How to set up cart recovery, post-purchase follow-ups, and review collection flows.</div>
+          <span class="webinar-badge">Live · Free · 11:00 AM EAT</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="cta-band">
+  <div class="container" style="text-align:center;">
+    <h2>Ready to put these lessons into action?</h2>
+    <p>Build your first AI agent free — no credit card, no code, no catch.</p>
+    <div class="cta-actions">
+      <button class="btn-cta" onclick="location.href='login.html#signup'">Start building free →</button>
+      <button class="btn-cta-ghost" onclick="location.href='use-cases.html'">Browse use cases</button>
+    </div>
+  </div>
+</div>
+
+</main>
+<div id="footer-placeholder"></div>
+<script src="nav.js"></script><script>initPage('Resources');</script>
+</body>
+</html>

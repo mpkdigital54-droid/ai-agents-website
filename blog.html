@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!-- SEO -->
+<title>AI Agents Blog — Business Automation Tips & Industry Insights</title>
+<meta name="description" content="Read practical guides on AI automation for real estate, e-commerce, and service businesses. Customer stories, product updates, and expert tips for growing with AI agents.">
+<meta name="keywords" content="AI automation blog, business AI tips, AI agent guide, real estate AI automation, e-commerce chatbot tips, AI for small business">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<link rel="canonical" href="https://www.aiagents.com/blog.html">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.aiagents.com/blog.html">
+<meta property="og:title" content="AI Agents Blog — Business Automation Tips & Industry Insights">
+<meta property="og:description" content="Read practical guides on AI automation for real estate, e-commerce, and service businesses. Customer stories, product updates, and expert tips for growing with AI agents.">
+<meta property="og:image" content="https://www.aiagents.com/og-image.png">
+<meta property="og:site_name" content="AI Agents">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AI Agents Blog — Business Automation Tips & Industry Insights">
+<meta name="twitter:description" content="Read practical guides on AI automation for real estate, e-commerce, and service businesses. Customer stories, product updates, and expert tips for growing with AI agents.">
+<meta name="twitter:image" content="https://www.aiagents.com/og-image.png">
+<meta name="theme-color" content="#2563EB">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Blog","name":"AI Agents Blog","description":"Practical guides, customer stories, and industry insights on AI automation for business.","url":"https://www.aiagents.com/blog.html","publisher":{"@type":"Organization","name":"AI Agents","url":"https://www.aiagents.com"}}</script><meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="shared.css">
+<style>
+.blog-layout{display:grid;grid-template-columns:1fr 320px;gap:48px;align-items:start;}
+.featured-post{background:white;border-radius:24px;border:1px solid var(--border);box-shadow:var(--shadow-md);overflow:hidden;margin-bottom:32px;display:grid;grid-template-columns:1fr 1fr;}
+.fp-img{min-height:320px;position:relative;}
+.fp-img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;}
+.fp-body{padding:40px;}
+.fp-cat{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--blue);margin-bottom:12px;}
+.fp-body h2{font-family:'Instrument Serif',serif;font-size:26px;line-height:1.3;color:var(--dark);margin-bottom:14px;}
+.fp-body p{font-size:14px;color:var(--slate);line-height:1.75;margin-bottom:20px;}
+.fp-meta{font-size:12px;color:var(--light-slate);display:flex;align-items:center;gap:14px;margin-bottom:20px;}
+.read-more{font-size:14px;font-weight:600;color:var(--blue);text-decoration:none;display:inline-flex;align-items:center;gap:4px;}
+.read-more:hover{gap:8px;}
+
+.blog-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;}
+.bc{background:white;border-radius:16px;border:1px solid var(--border);box-shadow:var(--shadow-sm);overflow:hidden;transition:all 0.2s;cursor:pointer;}
+.bc:hover{transform:translateY(-3px);box-shadow:var(--shadow-lg);}
+.bc-img{height:160px;overflow:hidden;}
+.bc-img img{width:100%;height:100%;object-fit:cover;transition:transform 0.3s;}
+.bc:hover .bc-img img{transform:scale(1.05);}
+.bc-body{padding:20px;}
+.bc-cat{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--blue);margin-bottom:8px;}
+.bc h3{font-size:15px;font-weight:600;color:var(--dark);line-height:1.4;margin-bottom:8px;}
+.bc p{font-size:13px;color:var(--slate);line-height:1.6;margin-bottom:12px;}
+.bc-meta{font-size:11px;color:var(--light-slate);display:flex;gap:10px;}
+
+.blog-sidebar .sb-card{background:white;border-radius:16px;border:1px solid var(--border);padding:24px;box-shadow:var(--shadow-sm);margin-bottom:20px;}
+.blog-sidebar .sb-card h4{font-size:14px;font-weight:600;color:var(--dark);margin-bottom:16px;}
+
+.category-list{list-style:none;}
+.category-list li{display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid var(--border);font-size:14px;color:var(--slate);cursor:pointer;transition:color 0.15s;}
+.category-list li:last-child{border-bottom:none;}
+.category-list li:hover{color:var(--blue);}
+.cat-count{background:var(--bg-soft);border-radius:100px;padding:2px 9px;font-size:11px;font-weight:600;color:var(--slate);}
+
+.popular-post{display:flex;gap:12px;padding:12px 0;border-bottom:1px solid var(--border);cursor:pointer;}
+.popular-post:last-child{border-bottom:none;}
+.pp-img{width:60px;height:60px;border-radius:8px;overflow:hidden;flex-shrink:0;}
+.pp-img img{width:100%;height:100%;object-fit:cover;}
+.pp-title{font-size:13px;font-weight:500;color:var(--dark);line-height:1.4;margin-bottom:4px;}
+.pp-meta{font-size:11px;color:var(--light-slate);}
+
+.newsletter-sb{background:var(--dark);border-radius:16px;padding:24px;}
+.newsletter-sb h4{font-size:15px;font-weight:600;color:white;margin-bottom:8px;}
+.newsletter-sb p{font-size:13px;color:#94A3B8;line-height:1.6;margin-bottom:16px;}
+.newsletter-sb input{width:100%;padding:10px 14px;border-radius:8px;border:none;font-size:14px;font-family:inherit;margin-bottom:10px;outline:none;}
+.newsletter-sb button{width:100%;padding:11px;background:var(--blue);color:white;border:none;border-radius:8px;font-size:14px;font-weight:600;cursor:pointer;font-family:inherit;}
+
+.pagination{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:40px;}
+.pg-btn{width:36px;height:36px;border-radius:8px;border:1.5px solid var(--border);background:white;font-size:14px;font-weight:500;cursor:pointer;transition:all 0.15s;font-family:inherit;color:var(--slate);}
+.pg-btn.active{background:var(--blue);color:white;border-color:var(--blue);}
+.pg-btn:hover:not(.active){border-color:#94A3B8;color:var(--dark);}
+
+@media(max-width:900px){.blog-layout{grid-template-columns:1fr;}.featured-post{grid-template-columns:1fr;}.fp-img{min-height:200px;}.blog-grid{grid-template-columns:1fr;}}
+</style>
+<meta name="ai-agents:topic" content="AI automation blog, business AI insights, real estate e-commerce service AI tips">
+</head>
+<body>
+<a href="#main" style="position:absolute;left:-9999px;top:0;background:#2563EB;color:white;padding:8px 16px;border-radius:0 0 8px 8px;font-size:14px;font-weight:600;z-index:9999;" onfocus="this.style.left='0'">Skip to main content</a>
+
+<div id="nav-placeholder"></div>
+
+<main id="main">
+<section aria-labelledby="page-h1" class="page-hero">
+  <span class="eyebrow">Blog</span>
+  <h1>Insights for <em>smarter business automation</em></h1>
+  <p>Practical guides, industry insights, product updates, and customer success stories — everything you need to grow your business with AI.</p>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="blog-layout">
+      <div>
+        <!-- Featured -->
+        <div class="featured-post fade-up">
+          <div class="fp-img"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80" alt="Featured post"></div>
+          <div class="fp-body">
+            <div class="fp-cat">🔥 Featured · Strategy</div>
+            <h2>Why Every Service Business Needs an AI Agent Before 2026</h2>
+            <p>Customer expectations have changed. They want instant responses at 11pm on a Sunday, seamless booking without phone calls, and personalised follow-ups that feel human. Here's how forward-thinking businesses are meeting this demand without burning out their teams.</p>
+            <div class="fp-meta"><span>👤 James Mwangi</span><span>📅 July 2, 2025</span><span>⏱️ 8 min</span></div>
+            <a href="#" class="read-more">Read article →</a>
+          </div>
+        </div>
+
+        <!-- Blog Grid -->
+        <div class="blog-grid">
+          <div class="bc fade-up">
+            <div class="bc-img"><img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&q=80" alt="Real estate"></div>
+            <div class="bc-body">
+              <div class="bc-cat">🏠 Real Estate</div>
+              <h3>5 Ways Real Estate Agents Are Using AI to Win More Listings</h3>
+              <p>From automated lead follow-up to instant property FAQs, here's how top agents are staying ahead of the competition.</p>
+              <div class="bc-meta"><span>June 25, 2025</span><span>·</span><span>6 min read</span></div>
+            </div>
+          </div>
+          <div class="bc fade-up">
+            <div class="bc-img"><img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&q=80" alt="E-commerce"></div>
+            <div class="bc-body">
+              <div class="bc-cat">🛍️ E-commerce</div>
+              <h3>The $50,000 Abandoned Cart Problem (And How AI Solves It)</h3>
+              <p>Cart abandonment costs e-commerce stores a fortune each year. Here's the exact AI workflow that recovers 35% of lost revenue.</p>
+              <div class="bc-meta"><span>June 18, 2025</span><span>·</span><span>5 min read</span></div>
+            </div>
+          </div>
+          <div class="bc fade-up">
+            <div class="bc-img"><img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&q=80" alt="Team automation"></div>
+            <div class="bc-body">
+              <div class="bc-cat">💡 Strategy</div>
+              <h3>How to Write Agent Instructions That Actually Work</h3>
+              <p>The difference between a mediocre AI agent and a great one often comes down to how you write its instructions. Here's the framework we use.</p>
+              <div class="bc-meta"><span>June 12, 2025</span><span>·</span><span>7 min read</span></div>
+            </div>
+          </div>
+          <div class="bc fade-up">
+            <div class="bc-img"><img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&q=80" alt="Healthcare AI"></div>
+            <div class="bc-body">
+              <div class="bc-cat">🏥 Healthcare</div>
+              <h3>AI Agents in Healthcare: What's Possible and What to Avoid</h3>
+              <p>Patient intake, appointment booking, and FAQ handling — here's what healthcare providers can safely automate with AI agents today.</p>
+              <div class="bc-meta"><span>June 5, 2025</span><span>·</span><span>9 min read</span></div>
+            </div>
+          </div>
+          <div class="bc fade-up">
+            <div class="bc-img"><img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80" alt="Analytics"></div>
+            <div class="bc-body">
+              <div class="bc-cat">📊 Product</div>
+              <h3>New: Real-Time Analytics Dashboard — Understand Every Conversation</h3>
+              <p>We've launched a completely rebuilt analytics suite. Here's everything that's new and how to use it to improve your agent's performance.</p>
+              <div class="bc-meta"><span>May 28, 2025</span><span>·</span><span>4 min read</span></div>
+            </div>
+          </div>
+          <div class="bc fade-up">
+            <div class="bc-img"><img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=600&q=80" alt="Customer success"></div>
+            <div class="bc-body">
+              <div class="bc-cat">🌟 Customer Story</div>
+              <h3>How GlowSpa Doubled Bookings Without Hiring a Single Extra Staff Member</h3>
+              <p>A behind-the-scenes look at how this Nairobi spa automated their entire booking and follow-up process using two AI agents.</p>
+              <div class="bc-meta"><span>May 20, 2025</span><span>·</span><span>6 min read</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pagination fade-up">
+          <button class="pg-btn active">1</button>
+          <button class="pg-btn">2</button>
+          <button class="pg-btn">3</button>
+          <button class="pg-btn">4</button>
+          <button class="pg-btn" style="width:auto;padding:0 14px;">Next →</button>
+        </div>
+      </div>
+
+      <!-- Sidebar -->
+      <div class="blog-sidebar">
+        <div class="sb-card fade-up">
+          <h4>Browse by category</h4>
+          <ul class="category-list">
+            <li>Strategy <span class="cat-count">14</span></li>
+            <li>Real Estate <span class="cat-count">9</span></li>
+            <li>E-commerce <span class="cat-count">11</span></li>
+            <li>Service Business <span class="cat-count">8</span></li>
+            <li>Product Updates <span class="cat-count">6</span></li>
+            <li>Customer Stories <span class="cat-count">12</span></li>
+            <li>AI & Automation <span class="cat-count">17</span></li>
+          </ul>
+        </div>
+
+        <div class="sb-card fade-up">
+          <h4>Most popular</h4>
+          <div class="popular-post">
+            <div class="pp-img"><img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=200&q=80" alt="Popular 1"></div>
+            <div><div class="pp-title">5 Ways Real Estate Agents Are Using AI to Win More Listings</div><div class="pp-meta">June 25 · 6 min</div></div>
+          </div>
+          <div class="popular-post">
+            <div class="pp-img"><img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=200&q=80" alt="Popular 2"></div>
+            <div><div class="pp-title">The $50,000 Abandoned Cart Problem (And How AI Solves It)</div><div class="pp-meta">June 18 · 5 min</div></div>
+          </div>
+          <div class="popular-post">
+            <div class="pp-img"><img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=200&q=80" alt="Popular 3"></div>
+            <div><div class="pp-title">How GlowSpa Doubled Bookings Without Hiring More Staff</div><div class="pp-meta">May 20 · 6 min</div></div>
+          </div>
+        </div>
+
+        <div class="newsletter-sb fade-up">
+          <h4>Get the weekly digest</h4>
+          <p>New articles, templates, and AI automation tips — every Tuesday.</p>
+          <input type="email" placeholder="your@email.com">
+          <button>Subscribe free →</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="cta-band">
+  <div class="container" style="text-align:center;">
+    <h2>Ready to apply what you've learned?</h2>
+    <p>Build your first AI agent in minutes — free, no code required.</p>
+    <div class="cta-actions">
+      <button class="btn-cta" onclick="location.href='login.html#signup'">Start building free →</button>
+      <button class="btn-cta-ghost" onclick="location.href='resources.html'">Explore resources</button>
+    </div>
+  </div>
+</div>
+
+</main>
+<div id="footer-placeholder"></div>
+<script src="nav.js"></script><script>initPage('Blog');</script>
+</body>
+</html>
